@@ -9,7 +9,10 @@ body {
   background-size: cover;
   margin: 0;
   padding: 0;
+<<<<<<< HEAD
   height: 100vh;
+=======
+>>>>>>> dda15abab6d23cc4710b562c4ba3a03106d189c4
 }
 html {
   height: 100%;
@@ -18,6 +21,7 @@ html {
   justify-content: center;
   align-items: center;
 }
+<<<<<<< HEAD
 .tablero{
   display: flex;
   flex-direction: row;
@@ -29,22 +33,41 @@ html {
   border: 2px solid #000;
   margin: 25px ;
   width: 400px;
+=======
+.carta{
+  padding-bottom: 110px;
+  border: 2px solid #000;
+  width: 600px;
+>>>>>>> dda15abab6d23cc4710b562c4ba3a03106d189c4
   background-color: white;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 .contenido {
   position: relative;
+<<<<<<< HEAD
   margin: 25px;
   text-align: center;
   border: 2px solid #000;
   width: 350px;
+=======
+  margin-top: 25px;
+  text-align: center;
+  border: 2px solid #000;
+  width: 550px;
+  margin-left: 25px;
+>>>>>>> dda15abab6d23cc4710b562c4ba3a03106d189c4
   background-color: aliceblue;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 .mapache{
+<<<<<<< HEAD
   width: 60%; 
   max-width: 300px;
   margin: 25px auto;
+=======
+  width: 300px;
+  margin: 25px;
+>>>>>>> dda15abab6d23cc4710b562c4ba3a03106d189c4
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 .ficha{
@@ -56,9 +79,15 @@ html {
   margin: 0;
   padding: 0;
   position: absolute;
+<<<<<<< HEAD
   width: 20%;
   max-width: 150px;
   margin-top: -55px;
   margin-left: -25px;
+=======
+  width: 150px;
+  margin-top: -85px;
+  margin-left: -40px;
+>>>>>>> dda15abab6d23cc4710b562c4ba3a03106d189c4
   transform: scaleX(-1);
 }
